@@ -10,7 +10,7 @@ const splitSentence = (frase) => {
 
 const concatName = (nome) => {
   let primeiroNome = nome[0];
-  let segundoNome = nome.at(-1);
+  let segundoNome = nome.slice(-1);
   return `${segundoNome}, ${primeiroNome}`;
 };
 // Desafio 4 - Crie a função footballPoints
